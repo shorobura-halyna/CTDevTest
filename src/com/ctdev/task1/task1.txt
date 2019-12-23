@@ -1,0 +1,10 @@
+Your DB needs to hold two main objects – Contacts and Organizations. Each Contact can work in several organizations and each Organization has a lot of contacts.
+
+1. What type of relationship would you use?
+2. Draw the scheme of all tables with relationships.
+
+Answers:
+
+1. Relationship Name: many-to-many
+2. Look in the attachments -> Task1_schema.png
+

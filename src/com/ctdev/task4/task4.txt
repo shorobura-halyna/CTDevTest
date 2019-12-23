@@ -1,0 +1,11 @@
+You have a list of numbers to fill the table of prices in the shown way
+
+        Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct   Nov   Dec
+Prod. 1 Num1 Num2 Num3 Num4 Num5 Num6 Num7 Num8 Num9 Num10 Num11 Num12
+Prod. 2 Num13 ....
+Prod. 3
+
+- Implement Java method which receive this list and return the object which will be convenient to find price using Month and Product keys.
+example:
+PriceExplorer ps=PriceExplorerBilder.getPriceExplorer(monthByProductsTable);
+ps.getPrice('Jan','Prod1');

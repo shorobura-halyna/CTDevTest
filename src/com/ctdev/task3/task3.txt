@@ -1,0 +1,15 @@
+As a part of project, you need to implement functionality of calculating salaries for employees in different companies.
+Each company have its own salary budget. Every employee has his own hourly rate and work hours. Basic formula for salary
+calculation is ratePerHour * workdays * 8
+Each company should have ability to pay salaries to its workers. We should take into consideration that total salary
+payments can’t be greater than company wage budget. UML diagram listed below.
+
+
+1) Write classes that implement this diagram.
+2) You should have at least 3 types of employees
+e.g.
+Manager
+Developer
+Scrum master
+Developer may have bonuses that should be add to the basic salary, it should be taken into consideration
+during calculation of his wage.

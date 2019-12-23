@@ -1,0 +1,17 @@
+Now we have DB with each Contact has the only one related Organization.
+
+1. How can you find all contacts with Name starts with “A” in organization named “Cats”?
+2. How can you count number of contacts for each organization?
+Write SQL query for each question above.
+
+Answers:
+
+1: select * from Contact where id_organization
+   in (select id from Organization
+   where organization_name = 'Cats')
+   and name like 'A%';
+
+2: select organization_name, count(*) as count_result
+   from Organization left join Contact
+   on Organization.id = Contact.id_organization
+   group by organization_name;
